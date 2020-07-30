@@ -21,3 +21,11 @@ PIDFile=/run/fan.pid
 [Install]
 WantedBy=multi-user.target
 ```
+4. Reload daemon
+```
+sudo systemctl daemon-reload
+```
+5. Enable & Start service
+```
+sudo systemctl enable fancoltrol && sudo systemctl start fancontrol
+```

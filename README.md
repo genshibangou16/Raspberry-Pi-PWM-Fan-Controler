@@ -1,5 +1,10 @@
 # Raspberry-Pi-PWM-Fan-Controler
-Pigpio's PWM signal controls fan perfectly.
+Pigpio's PWM signal controls fan perfectly.<br>
+Connect fan with GPIO 18 and Ground.<br>
+# Features
+- Quiet at night.
+- Change RPM according to CPU temperatue.
+- Few noise.
 # Instalation
 1. Copy this files into `/opt/`.
 2. Make service file as follows.

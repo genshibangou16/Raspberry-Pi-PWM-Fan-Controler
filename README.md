@@ -1,11 +1,12 @@
 # Raspberry-Pi-PWM-Fan-Controler
 Pigpio's PWM signal controls fan perfectly.
 # Instalation
-Copy this files into `/opt/`.
-Make service file as follows.
+1. Copy this files into `/opt/`.
+2. Make service file as follows.
 ```
 sudo nano /etc/systemd/system/fancontrol.service
 ```
+3. Copy follows into `fancontrol.service`.
 ```
 [Unit]
 Description=FanControl

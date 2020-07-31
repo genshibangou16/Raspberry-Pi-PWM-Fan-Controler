@@ -4,7 +4,7 @@ Connect fan with GPIO 18 and Ground.<br>
 # Features
 - Quiet at night.
 - Change RPM according to CPU temperatue.
-- Few noise.
+- Low noise.
 # Instalation
 1. Copy this files into `/opt/`.
 2. Make service file as follows.
